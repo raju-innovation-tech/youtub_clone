@@ -18,7 +18,7 @@ img{
 }
 nav{
     padding: 10px 2%;
-    height: 50px;
+    /* height: 50px; */
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0, 0,0,0.2);
     background: #ffffff;
@@ -43,9 +43,99 @@ nav{
 .nav-left .menu-icon{
     width: 22px;
     margin-right: 25px;
+    margin-top: 10px;     /* extra */
+    height: 25px;         /* extra */
 }
 .nav-left .logo{
     width: 130px;
 }
 
 /* middle nav */
+.nav-middle .mic-icon{
+    width: 16px;
+}
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{
+    width: 400px;
+    border:0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box img{
+    width: 15px;
+}
+
+/* -----------sidebar----------------- */
+.sidebar{
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+
+.shortcut-links a img{
+    width: 20px;
+    margin-right: 20px;
+}
+
+
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fix-content;
+    flex-wrap: wrap;
+}
+
+.shortcut-links a:first-child{
+    color: #ed3833;
+}
+
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+
+.subscribe-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.subscribe-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.subscribe-list a img{
+    width:25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar a p{
+    display: none;
+}
+.small-sidebar h3{
+    display: none;
+}
+
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
