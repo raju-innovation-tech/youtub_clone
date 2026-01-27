@@ -149,6 +149,12 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+/* large-container class present in js code */
+.large-container{
+     padding-left: 6%;
+}
+
+
 .banner{
     width: 100%;
 }
@@ -191,4 +197,33 @@ nav{
     font-weight: 600;
     display: bolck;
     margin-bottom: 5px;
+}
+
+@media(max-width:900px){
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
+    .nav-middle .search-box input{
+        width: 100px;
+    }
+    .nav-middle .mic-icon{
+        display: none;
+    }
+    .logo{
+        width: 90px;
+    }
 }
